@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="add__mascota">
+            <h1>Dog Crud</h1>
+            <button type="button" class="aniadir">Agregar mascota</button>
+        </div>
+    </header>
+    <main id="dogContainer" class="dog__container">
+    </main>
+    <div class="modal" id="myModal">
+        <div class="modal__content">
+            <span class="close">&times;</span>
+            <p>¿Estás seguro que quieres eliminar esta mascota?</p>
+            <div class="btn__container">
+                <button id="delete" type="button">Aceptar</button>
+                <button id="close__btn" type="button">Cancelar</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>
